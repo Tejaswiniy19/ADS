@@ -1,0 +1,56 @@
+{
+  "datasets": {
+    "random": {
+      "avl": {"insert_ms": 46, "search_ms": 10, "rotations": 499981, "height": 19},
+      "rb": {"insert_ms": 71, "search_ms": 13, "rotations": 0, "height": 19},
+      "splay": {"insert_ms": 54, "search_ms": 20418, "rotations": 499999, "height": 500000},
+      "btree": {"insert_ms": 144, "search_ms": 10, "splits": 70304, "height": 6},
+      "bplus": {"insert_ms": 162, "search_ms": 9, "splits": 70304, "height": 6},
+      "analytics": {"segment_ms": 6, "fenwick_ms": 13, "hiat_ms": 92, "range_ms": 138, "update_ms": 8},
+      "validation": {
+        "search": {"id": 1431131, "found": true, "time": 5.8E-6},
+        "range": {"start": 1005000, "end": 1006000, "sum": 100100.0, "time": 1.384E-4},
+        "update": {"id": 1000001, "old": 100.0, "new": 999.99, "time": 8.6E-6}
+      }
+    },
+    "sorted": {
+      "avl": {"insert_ms": 54, "search_ms": 13, "rotations": 499981, "height": 19},
+      "rb": {"insert_ms": 71, "search_ms": 12, "rotations": 0, "height": 19},
+      "splay": {"insert_ms": 43, "search_ms": 24561, "rotations": 499999, "height": 500000},
+      "btree": {"insert_ms": 224, "search_ms": 8, "splits": 70304, "height": 6},
+      "bplus": {"insert_ms": 219, "search_ms": 14, "splits": 70304, "height": 6},
+      "analytics": {"segment_ms": 7, "fenwick_ms": 23, "hiat_ms": 147, "range_ms": 105, "update_ms": 17},
+      "validation": {
+        "search": {"id": 1431131, "found": true, "time": 1.0E-5},
+        "range": {"start": 1005000, "end": 1006000, "sum": 100100.0, "time": 1.052E-4},
+        "update": {"id": 1000001, "old": 100.0, "new": 999.99, "time": 1.77E-5}
+      }
+    },
+    "reverse": {
+      "avl": {"insert_ms": 131, "search_ms": 11, "rotations": 499981, "height": 19},
+      "rb": {"insert_ms": 300, "search_ms": 8, "rotations": 0, "height": 19},
+      "splay": {"insert_ms": 45, "search_ms": 21473, "rotations": 499999, "height": 500000},
+      "btree": {"insert_ms": 181, "search_ms": 13, "splits": 71419, "height": 6},
+      "bplus": {"insert_ms": 171, "search_ms": 11, "splits": 71419, "height": 6},
+      "analytics": {"segment_ms": 7, "fenwick_ms": 11, "hiat_ms": 126, "range_ms": 90, "update_ms": 20},
+      "validation": {
+        "search": {"id": 1068870, "found": true, "time": 1.12E-5},
+        "range": {"start": 1005000, "end": 1006000, "sum": 0.0, "time": 9.06E-5},
+        "update": {"id": 1500000, "old": 100.0, "new": 999.99, "time": 2.07E-5}
+      }
+    },
+    "skewed": {
+      "avl": {"insert_ms": 242, "search_ms": 3, "rotations": 64069, "height": 20},
+      "rb": {"insert_ms": 161, "search_ms": 2, "rotations": 0, "height": 17},
+      "splay": {"insert_ms": 45, "search_ms": 3, "rotations": 498923, "height": 3},
+      "btree": {"insert_ms": 409, "search_ms": 3, "splits": 9423, "height": 5},
+      "bplus": {"insert_ms": 295, "search_ms": 4, "splits": 9423, "height": 5},
+      "analytics": {"segment_ms": 5, "fenwick_ms": 11, "hiat_ms": 323, "range_ms": 30, "update_ms": 2},
+      "validation": {
+        "search": {"id": 1000922, "found": true, "time": 4.2E-6},
+        "range": {"start": 1005000, "end": 1006000, "sum": 0.0, "time": 3.01E-5},
+        "update": {"id": 1000248, "old": 100.0, "new": 999.99, "time": 2.7E-6}
+      }
+    }
+  }
+}
